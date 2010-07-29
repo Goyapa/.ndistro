@@ -1,0 +1,19 @@
+node 0.1.102
+
+# Modules
+module senchalabs connect
+module visionmedia express
+module visionmedia connect-form
+module visionmedia connect-redis
+module visionmedia jade
+module visionmedia ejs
+module fictorial redis-node-client
+module felixge node-formidable
+
+# Express skeleton app
+if [[ -f app.js ]]; then
+  log "already created application"
+else
+  log "creating application"
+  ./bin/express
+fi
