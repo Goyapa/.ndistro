@@ -1,0 +1,8 @@
+node 0.1.102
+
+# Modules
+module senchalabs connect
+module visionmedia connect-form
+module visionmedia connect-redis
+module fictorial redis-node-client
+module felixge node-formidable
