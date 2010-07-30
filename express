@@ -9,6 +9,7 @@ module visionmedia jade
 module visionmedia ejs
 module fictorial redis-node-client
 module felixge node-formidable
+module cloudhead less.js
 
 # Express skeleton app
 if [[ -f app.js ]]; then
