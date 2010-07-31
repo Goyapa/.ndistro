@@ -12,7 +12,7 @@ module felixge node-formidable
 module cloudhead less.js
 
 # Express skeleton app
-if [[ -f app.js ]]; then
+if test -f app.js; then
   log "already created application"
 else
   log "creating application"
